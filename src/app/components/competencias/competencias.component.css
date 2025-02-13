@@ -1,0 +1,55 @@
+.competencias-container {
+  text-align: center;
+  margin: 50px;
+}
+
+.competencias-title {
+  margin-left: 25%;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #696969;
+}
+
+.competencias-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.competencia-card {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+}
+
+.competencia-card:hover {
+  transform: scale(1.05);
+}
+
+#sql-card {
+  background-image: url('../assets/sqlogo.png');
+}
+
+#angular-card {
+  background-image: url('../assets/Angular.png');
+}
+
+#javascript-card {
+  background-image: url('../assets/JavaScript_logo.png');
+}
+
+#java-card {
+  background-image: url('../assets/java-logo.png');
+}
