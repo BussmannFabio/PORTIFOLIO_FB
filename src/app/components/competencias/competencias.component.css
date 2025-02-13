@@ -1,4 +1,3 @@
-/* Fundo ocupando toda a tela */
 .competencias-background {
   background: #1e2a47;
   width: 100%;
@@ -6,8 +5,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 0;
+  padding: 30px 0;
   border-radius: 20px;
+}
+.competencias-container {
+  width: 92%;
+  max-width: 1200px;
+  background: rgba(27, 20, 20, 0.582);
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
 }
 
 .competencias-title {
@@ -38,21 +45,18 @@
   transition: transform 0.3s ease-in-out;
 }
 
-/* Ícone dentro do card */
 .competencia-icon {
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-/* Efeito ao passar o mouse */
 .competencia-card:hover {
   transform: scale(1.05);
 }
 
-/* Imagens de fundo dos ícones */
 #sql-card .competencia-icon {
   background-image: url('../assets/sqlogo.png');
 }
@@ -69,7 +73,6 @@
   background-image: url('../assets/java-logo.png');
 }
 
-/* Texto dentro dos cards */
 .competencia-card p {
   font-size: 1.2rem;
   font-weight: bold;
