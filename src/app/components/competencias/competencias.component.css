@@ -59,19 +59,19 @@
 }
 
 #sql-card .competencia-icon {
-  background-image: url('/assets/sqlogo.png');
+  background-image: url('../assets/sqlogo.png');
 }
 
 #angular-card .competencia-icon {
-  background-image: url('/assets/Angular.png');
+  background-image: url('../assets/Angular.png');
 }
 
 #javascript-card .competencia-icon {
-  background-image: url('/assets/JavaScript_logo.png');
+  background-image: url('../assets/JavaScript_logo.png');
 }
 
 #java-card .competencia-icon {
-  background-image: url('/assets/java-logo.png');
+  background-image: url('../assets/java-logo.png');
 }
 
 .competencia-card p {
