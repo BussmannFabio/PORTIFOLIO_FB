@@ -9,6 +9,7 @@
   margin: 0;
   padding: 20px;
   border-radius: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 .experiencia-content {
@@ -18,6 +19,7 @@
   max-width: 800px;
   width: 100%;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
 }
 
 p {
@@ -27,6 +29,7 @@ p {
   margin: 10px 0;
   text-align: justify;
   padding: 15px;
+  transition: all 0.3s ease-in-out;
 }
 
 h1 {
@@ -34,6 +37,7 @@ h1 {
   font-weight: bold;
   margin-bottom: 20px;
   color: #e0f0ff;
+  transition: all 0.3s ease-in-out;
 }
 
 .experiencia-item {
@@ -45,11 +49,13 @@ h2 {
   font-weight: bold;
   color: #e0f0ff;
   margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
 }
 
-h3{
+h3 {
   padding: 18px;
   color: #e0f0ff;
+  transition: all 0.3s ease-in-out;
 }
 
 ul {
@@ -62,4 +68,26 @@ ul {
 ul li {
   margin-bottom: 10px;
   padding: 15px;
+}
+
+
+.experiencia-content.small-screen {
+  padding: 20px !important;
+}
+
+h1.small-screen {
+  font-size: 2.5rem !important;
+  margin-bottom: 30px;
+}
+
+h2.small-screen {
+  font-size: 1.5rem !important;
+}
+
+h3.small-screen {
+  font-size: 1.2rem !important;
+}
+
+ul li.small-screen {
+  font-size: 1rem !important;
 }

@@ -1,24 +1,24 @@
-<div class="experiencia-container">
-  <div class="experiencia-content">
-    <h1>Minha Experiência Profissional</h1>
+<div class="experiencia-container" [ngClass]="{'small-screen': isSmallScreen}">
+  <div class="experiencia-content" [ngClass]="{'small-screen': isSmallScreen}">
+    <h1 [ngClass]="{'small-screen': isSmallScreen}">Minha Experiência Profissional</h1>
 
     <!-- Lorenfer Atacado da Construção -->
     <div class="experiencia-item">
-      <h2>Lorenfer Atacado da Construção</h2>
-      <p><strong>Estagiário de TI (Cargo Atual)</strong></p>
-      <p><strong>Out de 2024 - o momento (5 meses)</strong></p>
-      <p><strong>Localização:</strong> Canas, São Paulo, Brasil (Presencial)</p>
+      <h2 [ngClass]="{'small-screen': isSmallScreen}">Lorenfer Atacado da Construção</h2>
+      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Estagiário de TI (Cargo Atual)</strong></p>
+      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Out de 2024 - o momento (5 meses)</strong></p>
+      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Localização:</strong> Canas, São Paulo, Brasil (Presencial)</p>
       <div class="descricao-competencias">
         <div class="descricao">
-          <h3>Descrição do Cargo:</h3>
-          <p>
+          <h3 [ngClass]="{'small-screen': isSmallScreen}">Descrição do Cargo:</h3>
+          <p [ngClass]="{'small-screen': isSmallScreen}">
             Como Estagiário de TI, sou responsável por apoiar a equipe no desenvolvimento e manutenção de aplicações
             que auxiliam na operação cotidiana da empresa. Utilizamos Angular para criar soluções eficazes que otimizam o ambiente de
             produção e administração, resolvendo desafios diários e melhorando a integração entre os processos internos.
           </p>
         </div>
         <div class="competencias">
-          <h3>Competências:</h3>
+          <h3 [ngClass]="{'small-screen': isSmallScreen}">Competências:</h3>
           <ul>
             <li>Infraestrutura de tecnologia da informação</li>
             <li>TypeScript</li>
@@ -31,19 +31,19 @@
 
     <!-- Desenvolvedor Freelancer -->
     <div class="experiencia-item">
-      <h2>Desenvolvedor Freelancer</h2>
-      <p><strong>Jan de 2023 - Out de 2024 (1 ano e 7 meses)</strong></p>
-      <p><strong>Localização:</strong> Freelance</p>
+      <h2 [ngClass]="{'small-screen': isSmallScreen}">Desenvolvedor Freelancer</h2>
+      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Jan de 2023 - Out de 2024 (1 ano e 7 meses)</strong></p>
+      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Localização:</strong> Freelance</p>
       <div class="descricao-competencias">
         <div class="descricao">
-          <h3>Descrição do Cargo:</h3>
-          <p>
+          <h3 [ngClass]="{'small-screen': isSmallScreen}">Descrição do Cargo:</h3>
+          <p [ngClass]="{'small-screen': isSmallScreen}">
             Como Desenvolvedor Freelancer, atuei em diversos projetos de tecnologia, oferecendo soluções personalizadas para
             clientes, desenvolvendo websites e aplicações utilizando tecnologias modernas como JavaScript, Bootstrap, e outras ferramentas.
           </p>
         </div>
         <div class="competencias">
-          <h3>Competências:</h3>
+          <h3 [ngClass]="{'small-screen': isSmallScreen}">Competências:</h3>
           <ul>
             <li>Gestão de vendas</li>
             <li>Gestão de projetos</li>
@@ -59,24 +59,24 @@
 
     <!-- Kellynha -->
     <div class="experiencia-item">
-      <h2>Kellynha</h2>
-      <p><strong>Assistente Administrativo</strong></p>
-      <p><strong>Set de 2021 - Ago de 2023 (2 anos)</strong></p>
-      <p><strong>Localização:</strong> Guaratinguetá, São Paulo, Brasil</p>
+      <h2 [ngClass]="{'small-screen': isSmallScreen}">Kellynha</h2>
+      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Assistente Administrativo</strong></p>
+      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Set de 2021 - Ago de 2023 (2 anos)</strong></p>
+      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Localização:</strong> Guaratinguetá, São Paulo, Brasil</p>
       <div class="descricao-competencias">
-        <h3>Descrição do Cargo:</h3>
-        <p>
+        <h3 [ngClass]="{'small-screen': isSmallScreen}">Descrição do Cargo:</h3>
+        <p [ngClass]="{'small-screen': isSmallScreen}">
           Como Assistente Administrativo na Kellynha, coordenei a reposição de estoque, garanti a continuidade das operações e utilizei habilidades administrativas como gestão de e-mails, emissão de NF e uso de sistemas de gestão. Organizei planilhas financeiras e de pedidos, contribuindo para a agilidade nos processos e tomada de decisões. Também cuidei do bem-estar das equipes, promovendo um ambiente produtivo nas oficinas.
         </p>
-        <h3>Competências:</h3>
+        <h3 [ngClass]="{'small-screen': isSmallScreen}">Competências:</h3>
         <ul>
-          <li><strong>Gestão de Vendas Online</strong> - Responsavel pelo segmento de vendas e suporte por plataforma digital.</li>
+          <li><strong>Gestão de Vendas Online</strong> - Responsável pelo segmento de vendas e suporte por plataforma digital.</li>
           <li><strong>Gestão Operacional</strong> - Coordenação e otimização das operações diárias.</li>
           <li><strong>Gestão de Estoque e Reposição</strong> - Controle e reposição eficiente de mercadorias.</li>
           <li><strong>Processos de Venda e Faturamento</strong> - Experiência com ciclo de vendas e emissão de faturamento.</li>
           <li><strong>Uso de Sistemas de Gestão e Softwares de Escritório</strong> - Familiaridade com ferramentas de automação e controle empresarial.</li>
         </ul>
-
       </div>
     </div>
-
+  </div>
+</div>
