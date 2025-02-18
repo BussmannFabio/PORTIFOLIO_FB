@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './sobre.component.css'
 })
 export class SobreComponent {
-
+  imagemSrc = 'assets/motoCaminhonete.jpg';
 }

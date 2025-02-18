@@ -8,6 +8,7 @@
   padding: 30px 0;
   border-radius: 20px;
 }
+
 .competencias-container {
   width: 92%;
   max-width: 1200px;
@@ -18,7 +19,7 @@
 }
 
 .competencias-title {
-  margin-left: 35% ;
+  text-align: center;
   font-size: 2rem;
   margin-bottom: 30px;
   color: #ffffff;
@@ -32,8 +33,8 @@
 }
 
 .competencia-card {
-  width: 220px;
-  height: 230px;
+  width: 180px;
+  height: 190px;
   border-radius: 20px;
   background-color: #f0f0f0;
   display: flex;
@@ -46,8 +47,8 @@
 }
 
 .competencia-icon {
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,23 +59,87 @@
 }
 
 #sql-card .competencia-icon {
-  background-image: url('../assets/sqlogo.png');
+  background-image: url('/assets/sqlogo.png');
 }
 
 #angular-card .competencia-icon {
-  background-image: url('../assets/Angular.png');
+  background-image: url('/assets/Angular.png');
 }
 
 #javascript-card .competencia-icon {
-  background-image: url('../assets/JavaScript_logo.png');
+  background-image: url('/assets/JavaScript_logo.png');
 }
 
 #java-card .competencia-icon {
-  background-image: url('../assets/java-logo.png');
+  background-image: url('/assets/java-logo.png');
 }
 
 .competencia-card p {
   font-size: 1.2rem;
   font-weight: bold;
   color: #333;
+}
+
+@media (max-width: 600px) {
+  .competencias-title {
+    font-size: 16rem;
+  }
+
+  .competencias-cards {
+    gap: 7px;
+  }
+
+  .competencia-card {
+    width: 50px;
+    height: 50px;
+  }
+
+  .competencia-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .competencia-card p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .competencias-title {
+    font-size: 1.8rem;
+  }
+
+  .competencias-cards {
+    gap: 20px;
+  }
+
+  .competencia-card {
+    width: 180px;
+    height: 200px;
+  }
+
+  .competencia-icon {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .competencias-title {
+    font-size: 2rem;
+  }
+
+  .competencias-cards {
+    gap: 30px;
+  }
+
+  .competencia-card {
+    width: 220px;
+    height: 230px;
+  }
+
+  .competencia-icon {
+    width: 140px;
+    height: 140px;
+  }
 }
