@@ -1,76 +1,64 @@
 <div class="experiencia-container" [ngClass]="{'small-screen': isSmallScreen}">
   <div class="experiencia-content" [ngClass]="{'small-screen': isSmallScreen}">
-    <h1 [ngClass]="{'small-screen': isSmallScreen}">Minha Experiência Profissional</h1>
+    <h1>Minha Experiência Profissional</h1>
 
-    <!-- Lorenfer Atacado da Construção -->
-    <div class="experiencia-item">
-      <h2 [ngClass]="{'small-screen': isSmallScreen}">Lorenfer Atacado da Construção</h2>
-      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Estagiário de TI (Cargo Atual)</strong></p>
-      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Out de 2024 (5 meses)</strong></p>
-      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Localização:</strong> Canas, São Paulo, Brasil (Presencial)</p>
-      <div class="descricao-competencias">
-        <div class="descricao">
-          <h3 [ngClass]="{'small-screen': isSmallScreen}">Descrição do Cargo:</h3>
-          <p [ngClass]="{'small-screen': isSmallScreen}">
-            Como Estagiário de TI, sou responsável por apoiar a equipe no desenvolvimento e manutenção de aplicações
-            que auxiliam na operação cotidiana da empresa. Utilizamos Angular para criar soluções eficazes que otimizam o ambiente de
-            produção e administração, resolvendo desafios diários e melhorando a integração entre os processos internos.
-          </p>
-        </div>
-        <div class="competencias">
-          <h3 [ngClass]="{'small-screen': isSmallScreen}">Competências:</h3>
-          <p [ngClass]="{'small-screen': isSmallScreen}">Infraestrutura de tecnologia da informação</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}">TypeScript</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}">TOTVS Protheus</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}">Desenvolvimento e manutenção de aplicações Angular</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Desenvolvedor Freelancer -->
-    <div class="experiencia-item">
-      <h2 [ngClass]="{'small-screen': isSmallScreen}">Desenvolvedor Freelancer</h2>
-      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Jan de 2023 - Out de 2024 (1 ano e 7 meses)</strong></p>
-      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Localização:</strong> Freelance</p>
-      <div class="descricao-competencias">
-        <div class="descricao">
-          <h3 [ngClass]="{'small-screen': isSmallScreen}">Descrição do Cargo:</h3>
-          <p [ngClass]="{'small-screen': isSmallScreen}">
-            Como Desenvolvedor Freelancer, atuei em diversos projetos de tecnologia, oferecendo soluções personalizadas para
-            clientes, desenvolvendo websites e aplicações utilizando tecnologias modernas como JavaScript, Bootstrap, e outras ferramentas.
-          </p>
-        </div>
-        <div class="competencias">
-          <h3 [ngClass]="{'small-screen': isSmallScreen}">Competências:</h3>
-          <p [ngClass]="{'small-screen': isSmallScreen}">Gestão de vendas</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}">Gestão de projetos</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}">CSS</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}">Java</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}">Análise de dados</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}">Bootstrap</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}">JavaScript</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Kellynha -->
-    <div class="experiencia-item">
-      <h2 [ngClass]="{'small-screen': isSmallScreen}">Kellynha</h2>
-      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Assistente Administrativo</strong></p>
-      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Set de 2021 - Ago de 2023 (2 anos)</strong></p>
-      <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Localização:</strong> Guaratinguetá, São Paulo, Brasil</p>
-      <div class="descricao-competencias">
-        <h3 [ngClass]="{'small-screen': isSmallScreen}">Descrição do Cargo:</h3>
-        <p [ngClass]="{'small-screen': isSmallScreen}">
-          Como Assistente Administrativo na Kellynha, coordenei a reposição de estoque, garanti a continuidade das operações e utilizei habilidades administrativas como gestão de e-mails, emissão de NF e uso de sistemas de gestão. Organizei planilhas financeiras e de pedidos, contribuindo para a agilidade nos processos e tomada de decisões. Também cuidei do bem-estar das equipes, promovendo um ambiente produtivo nas oficinas.
+    <po-accordion>
+      <po-accordion-item [p-label]="'Lorenfer LTDA'">
+        <p><strong>Estagiário de TI (Cargo Atual)</strong></p>
+        <p><strong>Out de 2024 (5 meses)</strong></p>
+        <p><strong>Localização:</strong> Canas, São Paulo, Brasil (Presencial)</p>
+        <h3>Descrição do Cargo:</h3>
+        <p>
+          Como Estagiário de TI, sou responsável por apoiar o desenvolvimento e manutenção de aplicações
+          que auxiliam na operação cotidiana da empresa. Utilizamos Angular para criar soluções eficazes que otimizam o ambiente de
+          produção e administração, resolvendo desafios diários e melhorando a integração entre os processos internos.
         </p>
-        <h3 [ngClass]="{'small-screen': isSmallScreen}">Competências:</h3>
-          <p [ngClass]="{'small-screen': isSmallScreen}"><strong>Gestão de Vendas Online</strong> - Responsável pelo segmento de vendas e suporte por plataforma digital.</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}"> <strong>Gestão Operacional</strong> - Coordenação e otimização das operações diárias.</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}"> <strong>Gestão de Estoque e Reposição</strong> - Controle e reposição eficiente de mercadorias.</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}"> <strong>Processos de Venda e Faturamento</strong> - Experiência com ciclo de vendas e emissão de faturamento.</p>
-          <p [ngClass]="{'small-screen': isSmallScreen}"> <strong>Uso de Sistemas de Gestão e Softwares de Escritório</strong> - Familiaridade com ferramentas de automação e controle empresarial.</p>
-      </div>
-    </div>
+        <h3>Competências:</h3>
+        <ul>
+          <li>Infraestrutura de tecnologia da informação</li>
+          <li>TypeScript</li>
+          <li>TOTVS Protheus</li>
+          <li>Desenvolvimento de aplicações Angular</li>
+        </ul>
+      </po-accordion-item>
+
+      <po-accordion-item [p-label]="'Desenvolvedor Freelancer'">
+        <p><strong>Jan de 2023 - Out de 2024 (1 ano e 7 meses)</strong></p>
+        <p><strong>Localização:</strong> Freelance</p>
+        <h3>Descrição do Cargo:</h3>
+        <p>
+          Como Desenvolvedor Freelancer, atuei em projetos de tecnologia, oferecendo soluções personalizadas para
+          clientes utilizando tecnologias modernas como JavaScript, Bootstrap e outras ferramentas.
+        </p>
+        <h3>Competências:</h3>
+        <ul>
+          <li>Gestão de vendas</li>
+          <li>Gestão de projetos</li>
+          <li>CSS</li>
+          <li>Java</li>
+          <li>Análise de dados</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+        </ul>
+      </po-accordion-item>
+
+      <po-accordion-item [p-label]="'Kellynha LTDA'">
+        <p><strong>Assistente Administrativo</strong></p>
+        <p><strong>Set de 2021 - Ago de 2023 (2 anos)</strong></p>
+        <p><strong>Localização:</strong> Guaratinguetá, São Paulo, Brasil</p>
+        <h3>Descrição do Cargo:</h3>
+        <p>
+          Como Assistente Administrativo na Kellynha, coordenei a reposição de estoque, garanti a continuidade das operações e utilizei habilidades administrativas como gestão de e-mails, emissão de NF e uso de sistemas de gestão.
+        </p>
+        <h3>Competências:</h3>
+        <ul>
+          <li>Gestão de Vendas Online</li>
+          <li>Gestão Operacional</li>
+          <li>Gestão de Estoque e Reposição</li>
+          <li>Processos de Venda e Faturamento</li>
+          <li>Uso de Sistemas de Gestão e Softwares de Escritório</li>
+        </ul>
+      </po-accordion-item>
+    </po-accordion>
   </div>
 </div>

@@ -1,16 +1,14 @@
 .experiencia-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   min-height: 100vh;
   background: #1e2a47;
   color: #fff;
   font-family: 'Arial', sans-serif;
-  margin: 0;
   padding: 20px;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .experiencia-content {
@@ -23,16 +21,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: #d1e2f1;
-  margin: 10px 0;
-  text-align: justify;
-  padding: 15px;
-  transition: all 0.3s ease-in-out;
-}
-
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -41,26 +29,28 @@ h1 {
   transition: all 0.3s ease-in-out;
 }
 
-.experiencia-item {
-  margin-bottom: 30px;
+po-accordion {
+  margin-bottom: 20px;
 }
 
-h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #e0f0ff;
+po-accordion-item {
+  background-color: #2c3e50;
+  border-radius: 8px;
   margin-bottom: 10px;
-  transition: all 0.3s ease-in-out;
-  border-bottom: 2px solid #4f94e2;
-  padding-bottom: 4px;
-  display: inline-block;
+}
 
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #d1e2f1;
+  margin: 10px 0;
+  text-align: justify;
 }
 
 h3 {
-  padding: 18px;
+  font-size: 1.5rem;
   color: #e0f0ff;
-  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
 }
 
 ul {
@@ -72,10 +62,10 @@ ul {
 
 ul li {
   margin-bottom: 10px;
-  padding: 15px;
+  padding: 10px;
 }
 
-
+/* Estilos para telas pequenas */
 .experiencia-content.small-screen {
   padding: 20px !important;
 }
@@ -85,15 +75,10 @@ h1.small-screen {
   margin-bottom: 30px !important;
 }
 
-h2.small-screen {
-  font-size: 1.2rem !important;
-}
-
 h3.small-screen {
   font-size: 1rem !important;
 }
 
-p {
+p.small-screen {
   font-size: 1rem;
 }
-
