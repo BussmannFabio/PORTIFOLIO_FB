@@ -26,6 +26,7 @@ h1 {
   margin-bottom: 20px;
   color: #e0f0ff;
   text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 p {
@@ -33,6 +34,7 @@ p {
   line-height: 1.6;
   color: #d1e2f1;
   margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .welcome-content:hover {
@@ -42,12 +44,11 @@ p {
 
 .welcome-content.small-screen {
   padding: 20px !important;
-  font-size: 1rem !important;
   max-width: 80% !important;
 }
 
 h1.small-screen {
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
 }
 
 p.small-screen {

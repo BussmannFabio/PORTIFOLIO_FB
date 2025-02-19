@@ -10,6 +10,7 @@
   padding: 20px;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .experiencia-content {
@@ -76,18 +77,19 @@ ul li {
 }
 
 h1.small-screen {
-  font-size: 2.5rem !important;
-  margin-bottom: 30px;
+  font-size: 1.9rem !important;
+  margin-bottom: 30px !important;
 }
 
 h2.small-screen {
-  font-size: 1.5rem !important;
-}
-
-h3.small-screen {
   font-size: 1.2rem !important;
 }
 
-ul li.small-screen {
+h3.small-screen {
   font-size: 1rem !important;
 }
+
+p {
+  font-size: 1rem;
+}
+

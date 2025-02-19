@@ -16,6 +16,7 @@
   border-radius: 20px;
   padding: 40px;
   text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .competencias-title {
@@ -23,6 +24,8 @@
   font-size: 2rem;
   margin-bottom: 30px;
   color: #ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 .competencias-cards {
@@ -79,21 +82,27 @@
   font-weight: bold;
   color: #333;
 }
+
 .small-screen .competencias-container {
   padding: 20px !important;
 }
 
 .small-screen .competencias-title {
-  font-size: 2rem !important;
+  font-size: 1.6rem !important;
   margin-bottom: 20px !important;
 }
 
 .small-screen .competencia-card {
-  width: 150px !important;
-  height: 160px !important;
-  padding: 15px !important;
+  width: 90px !important;
+  height: 90px !important;
+  padding: 10px !important;
+}
+
+.small-screen .competencia-icon {
+  width:85px;
+  height: 85px;
 }
 
 .small-screen .competencia-card p {
-  font-size: 1rem !important;
+  font-size: 0.8rem !important;
 }

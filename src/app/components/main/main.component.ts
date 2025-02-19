@@ -9,8 +9,8 @@ import { CommonModule } from '@angular/common';
   template: `
     <div class="welcome-container" [ngClass]="{'small-screen': isSmallScreen}">
       <div class="welcome-content" [ngClass]="{'small-screen': isSmallScreen}">
-        <h1>Bem-vindo ao meu Portfólio!</h1>
-        <p>Explore meus projetos, habilidades e experiências.</p>
+        <h1 [ngClass]="{'small-screen': isSmallScreen}">Bem-vindo ao meu Portfólio!</h1>
+        <p [ngClass]="{'small-screen': isSmallScreen}">Explore meus projetos, habilidades e experiências.</p>
       </div>
     </div>
   `,

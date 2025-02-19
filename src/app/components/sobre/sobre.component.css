@@ -10,6 +10,7 @@
   padding: 20px;
   border-radius: 20px;
   transition: all 0.3s ease;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .sobre-content {
@@ -79,14 +80,13 @@ ul li a:hover {
 }
 
 h1.small-screen {
-  font-size: 1.7rem !important;
+  font-size: 1.6rem !important;
+  border-bottom: 2px solid #4f94e2;
+  padding-bottom: 4px;
+  display: inline-block;
 }
 
 p.small-screen {
-  font-size: 1.1rem !important;
-  padding: 5px !important;
-}
-
-ul li.small-screen {
   font-size: 1rem !important;
+  padding: 5px !important;
 }
