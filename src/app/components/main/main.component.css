@@ -49,6 +49,9 @@ p {
 
 h1.small-screen {
   font-size: 1.8rem !important;
+  border-bottom: 2px solid #4f94e2;
+  padding-bottom: 4px;
+  display: inline-block;
 }
 
 p.small-screen {

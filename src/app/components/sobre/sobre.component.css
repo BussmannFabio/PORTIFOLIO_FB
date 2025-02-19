@@ -86,7 +86,19 @@ h1.small-screen {
   display: inline-block;
 }
 
+h3.small-screen {
+  font-size: 1.6rem !important;
+  border-bottom: 2px solid #4f94e2;
+  padding-bottom: 4px;
+  display: inline-block;
+}
+
 p.small-screen {
+  font-size: 1rem !important;
+  padding: 5px !important;
+}
+
+li.small-screen {
   font-size: 1rem !important;
   padding: 5px !important;
 }

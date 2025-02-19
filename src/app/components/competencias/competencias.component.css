@@ -90,6 +90,9 @@
 .small-screen .competencias-title {
   font-size: 1.6rem !important;
   margin-bottom: 20px !important;
+  border-bottom: 2px solid #4f94e2;
+  padding-bottom: 4px;
+  display: inline-block;
 }
 
 .small-screen .competencia-card {

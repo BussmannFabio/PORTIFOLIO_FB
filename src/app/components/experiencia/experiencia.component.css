@@ -51,6 +51,10 @@ h2 {
   color: #e0f0ff;
   margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid #4f94e2;
+  padding-bottom: 4px;
+  display: inline-block;
+
 }
 
 h3 {
