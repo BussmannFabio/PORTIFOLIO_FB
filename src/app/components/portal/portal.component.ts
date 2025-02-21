@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { PoThemeService, PoThemeTypeEnum } from '@po-ui/ng-components';
+import { Component} from '@angular/core';
 import { PoToolbarModule, PoMenuModule, PoPageModule, PoButtonModule, PoMenuItem } from '@po-ui/ng-components';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
@@ -33,6 +32,7 @@ export class PortalComponent {
     { label: 'Sobre', link: '/sobre' },
     { label: 'Experiência', link: '/experiencia' },
     { label: 'Competências', link: '/competencias' },
+    { label: 'Configurações', link: '/config' },
   ];
 
   constructor() {}
