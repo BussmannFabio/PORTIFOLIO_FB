@@ -5,7 +5,6 @@ Este é o meu portfólio de desenvolvimento, criado com Angular e utilizando com
 ## Tecnologias Utilizadas
 - **Angular** (Standalone Components)
 - **PO UI** (Componentes visuais)
-- **Node.js** (Backend e consumo de APIs)
 
 ## Como Rodar o Projeto
 ### Servidor de Desenvolvimento
@@ -59,7 +58,6 @@ Este portfólio inclui projetos que demonstram habilidades em desenvolvimento fu
 
 - **Consumo de API**: Projeto utilizando a API de tweets de Kanye West
 - **Dashboard Administrativo**: Interface responsiva utilizando PO UI
-- **Gestão de Dados**: CRUD completo com SQL e Node.js
 
 ## Contato
 Se quiser trocar uma ideia sobre tecnologia ou colaborações, você pode me encontrar no [LinkedIn]((https://www.linkedin.com/in/devfabiobussmann/)) ou pelo e-mail: fabio122513@gmail.com
