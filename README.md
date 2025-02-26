@@ -64,8 +64,7 @@ Este portfólio inclui projetos que demonstram habilidades em desenvolvimento fu
 - **Gestão de Dados**: CRUD completo com SQL e Node.js
 
 ## Contato
-Se quiser trocar uma ideia sobre tecnologia ou colaborações, você pode me encontrar no [LinkedIn]((https://www.linkedin.com/in/devfabiobussmann/)) ou pelo e-mail: seu-email@example.com.
-Se quiser trocar uma ideia sobre tecnologia ou colaborações, você pode me encontrar no [LinkedIn]() ou pelo e-mail: seu-email@example.com.
+Se quiser trocar uma ideia sobre tecnologia ou colaborações, você pode me encontrar no [LinkedIn]((https://www.linkedin.com/in/devfabiobussmann/)) ou pelo e-mail: fabio122513@gmail.com
 
 ---
 Desenvolvido com ❤️ !
