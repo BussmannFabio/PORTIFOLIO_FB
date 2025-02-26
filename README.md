@@ -5,9 +5,7 @@ Este é o meu portfólio de desenvolvimento, criado com Angular e utilizando com
 ## Tecnologias Utilizadas
 - **Angular** (Standalone Components)
 - **PO UI** (Componentes visuais)
-- **Bootstrap** (Estilização)
 - **Node.js** (Backend e consumo de APIs)
-- **SQL** (Banco de dados)
 
 ## Como Rodar o Projeto
 ### Servidor de Desenvolvimento
