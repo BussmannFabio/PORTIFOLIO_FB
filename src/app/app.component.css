@@ -1,0 +1,17 @@
+/* Tema claro (default) */
+body.light-theme {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Tema escuro */
+body.dark-theme {
+  --background-color: #121212;
+  --text-color: #ffffff;
+}
+
+/* Usando as variáveis */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

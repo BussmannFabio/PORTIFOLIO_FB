@@ -7,6 +7,7 @@ import { SobreComponent } from './components/sobre/sobre.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { CompetenciasComponent } from './components/competencias/competencias.component';
 import { AdviceComponent } from './components/advice/advice.component';
+//import { ConfigComponent } from './components/config/config.component';
 
 export const routes: Routes = [
   {
@@ -18,6 +19,7 @@ export const routes: Routes = [
       { path: 'experiencia', component: ExperienciaComponent },
       { path: 'competencias', component: CompetenciasComponent },
       { path: 'advice', component: AdviceComponent },
+     // { path: 'config', component: ConfigComponent },
       { path: '', redirectTo: 'main', pathMatch: 'full' }
     ]
   }

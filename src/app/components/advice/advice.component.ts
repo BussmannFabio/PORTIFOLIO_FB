@@ -28,7 +28,7 @@ export class AdviceComponent {
   getNewQuote(): void {
     const currentTime = Date.now();
 
-    if (currentTime - this.lastQuoteTime >= 2000) {  // Garante que a API só será chamada a cada 2 segundos
+    if (currentTime - this.lastQuoteTime >= 500) {
       this.kanyeService.getKanyeQuote().subscribe((data) => {
         if (data?.quote) {
           this.quote = data.quote;

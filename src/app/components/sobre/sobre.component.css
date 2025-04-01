@@ -24,10 +24,12 @@
 }
 
 h1 {
+  font-style: oblique;
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 20px;
   color: #e0f0ff;
+  border-bottom: 2px solid #4f94e2;
 }
 
 p {
@@ -40,9 +42,12 @@ p {
 }
 
 h3 {
+  border-bottom: 2px solid #4f94e2;
+  font-style: oblique;
   font-size: 1.8rem;
   font-weight: bold;
   margin-top: 30px;
+  margin-bottom: 30px;
   color: #e0f0ff;
 }
 
@@ -81,7 +86,6 @@ ul li a:hover {
 
 h1.small-screen {
   font-size: 1.6rem !important;
-  border-bottom: 2px solid #4f94e2;
   padding-bottom: 4px;
   display: inline-block;
 }
