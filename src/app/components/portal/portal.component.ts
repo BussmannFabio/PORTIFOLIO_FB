@@ -32,7 +32,7 @@ export class PortalComponent {
     { label: 'Sobre', link: '/sobre' },
     { label: 'Experiência', link: '/experiencia' },
     { label: 'Competências', link: '/competencias' },
-    { label: 'Conselhos do YE', link: '/advice' },
+    //;{ label: 'Conselhos do YE', link: '/advice' },
    // { label: 'Configurações', link: '/config' },
   ];
 

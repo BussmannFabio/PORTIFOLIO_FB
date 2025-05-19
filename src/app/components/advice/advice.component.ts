@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+/*import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PoButtonModule } from '@po-ui/ng-components';
 import { KanyeService } from '../../services/advservice.service';// Corrigido o nome do serviço
@@ -38,3 +38,4 @@ export class AdviceComponent {
     }
   }
 }
+*/
